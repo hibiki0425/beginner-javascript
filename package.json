@@ -15,5 +15,10 @@
   "homepage": "https://github.com/wesbos/beginner-javascript#readme",
   "dependencies": {
     "eslint-config-wesbos": "^3.2.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ]
   }
 }
